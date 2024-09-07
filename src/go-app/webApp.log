@@ -1,0 +1,125 @@
+2021/12/11 07:08:59 base.go:38: dial tcp 127.0.0.1:3315: connect: connection refused
+2021/12/11 07:09:16 base.go:38: dial tcp 127.0.0.1:3315: connect: connection refused
+2021/12/11 07:09:16 testModel.go:22: dial tcp 127.0.0.1:3315: connect: connection refused
+2021/12/11 07:11:53 base.go:38: dial tcp 127.0.0.1:3315: connect: connection refused
+2021/12/11 07:11:53 testModel.go:22: dial tcp 127.0.0.1:3315: connect: connection refused
+2021/12/11 07:13:27 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 07:16:45 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 07:16:45 testModel.go:22: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 07:17:28 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 07:17:28 testModel.go:22: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 07:20:38 base.go:38: dial tcp 172.20.0.2:3306: connect: connection refused
+2021/12/11 07:23:17 base.go:38: Error 1045: Access denied for user 'localuser'@'172.20.0.3' (using password: YES)
+2021/12/11 07:23:17 testModel.go:22: Error 1045: Access denied for user 'localuser'@'172.20.0.3' (using password: YES)
+2021/12/11 07:23:26 base.go:38: Error 1045: Access denied for user 'localuser'@'172.20.0.3' (using password: YES)
+2021/12/11 07:23:26 testModel.go:22: Error 1045: Access denied for user 'localuser'@'172.20.0.3' (using password: YES)
+2021/12/11 08:17:35 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 08:17:35 testModel.go:22: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 08:24:57 base.go:38: Error 1045: Access denied for user 'mysqluser'@'172.22.0.5' (using password: YES)
+2021/12/11 08:24:57 testModel.go:22: Error 1045: Access denied for user 'mysqluser'@'172.22.0.5' (using password: YES)
+2021/12/11 08:37:46 base.go:38: Error 1045: Access denied for user 'mysqluser'@'172.23.0.5' (using password: YES)
+2021/12/11 08:37:46 testModel.go:22: Error 1045: Access denied for user 'mysqluser'@'172.23.0.5' (using password: YES)
+2021/12/11 08:50:10 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 08:50:10 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 08:50:30 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 08:50:30 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/11 08:52:46 base.go:38: Error 1045: Access denied for user 'mysqluser'@'172.25.0.5' (using password: YES)
+2021/12/11 08:52:46 testModel.go:21: Error 1045: Access denied for user 'mysqluser'@'172.25.0.5' (using password: YES)
+2021/12/11 08:58:29 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:40738->127.0.0.11:53: i/o timeout
+2021/12/11 08:58:29 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:40738->127.0.0.11:53: i/o timeout
+2021/12/11 08:59:01 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:54888->127.0.0.11:53: i/o timeout
+2021/12/11 08:59:01 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:54888->127.0.0.11:53: i/o timeout
+2021/12/11 09:03:12 base.go:38: Error 1045: Access denied for user 'mysqluser'@'172.27.0.5' (using password: YES)
+2021/12/11 09:03:12 testModel.go:21: Error 1045: Access denied for user 'mysqluser'@'172.27.0.5' (using password: YES)
+2021/12/11 09:11:10 base.go:38: Error 1045: Access denied for user 'mysqluser'@'172.28.0.5' (using password: YES)
+2021/12/11 09:11:10 testModel.go:21: Error 1045: Access denied for user 'mysqluser'@'172.28.0.5' (using password: YES)
+2021/12/11 09:25:51 base.go:38: dial tcp: lookup lo on 127.0.0.11:53: read udp 127.0.0.1:35653->127.0.0.11:53: i/o timeout
+2021/12/11 09:25:51 testModel.go:21: dial tcp: lookup lo on 127.0.0.11:53: read udp 127.0.0.1:35653->127.0.0.11:53: i/o timeout
+2021/12/19 06:26:56 base.go:38: dial tcp: lookup lo on 127.0.0.11:53: read udp 127.0.0.1:36210->127.0.0.11:53: i/o timeout
+2021/12/19 06:26:56 testModel.go:21: dial tcp: lookup lo on 127.0.0.11:53: read udp 127.0.0.1:36210->127.0.0.11:53: i/o timeout
+2021/12/19 06:31:21 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:57327->127.0.0.11:53: i/o timeout
+2021/12/19 06:31:21 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:57327->127.0.0.11:53: i/o timeout
+2021/12/19 06:39:21 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:60372->127.0.0.11:53: i/o timeout
+2021/12/19 06:39:21 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:60372->127.0.0.11:53: i/o timeout
+2021/12/19 06:44:08 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:43830->127.0.0.11:53: i/o timeout
+2021/12/19 06:44:08 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:43830->127.0.0.11:53: i/o timeout
+2021/12/19 06:44:18 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:33654->127.0.0.11:53: i/o timeout
+2021/12/19 06:44:18 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:33654->127.0.0.11:53: i/o timeout
+2021/12/19 06:48:21 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:52481->127.0.0.11:53: i/o timeout
+2021/12/19 06:48:21 testModel.go:21: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:52481->127.0.0.11:53: i/o timeout
+2021/12/19 06:53:15 base.go:38: dial tcp 172.23.0.2:3315: connect: connection refused
+2021/12/19 06:53:15 testModel.go:21: dial tcp 172.23.0.2:3315: connect: connection refused
+2021/12/19 06:56:15 base.go:38: Error 1045: Access denied for user 'localuser'@'172.24.0.5' (using password: YES)
+2021/12/19 06:56:15 testModel.go:21: Error 1045: Access denied for user 'localuser'@'172.24.0.5' (using password: YES)
+2021/12/19 07:03:59 base.go:38: Error 1045: Access denied for user 'localuser'@'172.25.0.5' (using password: YES)
+2021/12/19 07:03:59 testModel.go:21: Error 1045: Access denied for user 'localuser'@'172.25.0.5' (using password: YES)
+2021/12/19 07:29:08 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:29:08 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:30:09 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:30:09 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:33:58 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:33:58 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:34:44 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:34:44 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:35:50 base.go:39: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:35:50 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:37:35 base.go:37: dial tcp 172.29.0.4:3315: connect: connection refused
+2021/12/19 07:37:35 testModel.go:21: dial tcp 172.29.0.4:3315: connect: connection refused
+2021/12/19 07:38:01 base.go:38: dial tcp 172.29.0.4:3315: connect: connection refused
+2021/12/19 07:38:01 testModel.go:21: dial tcp 172.29.0.4:3315: connect: connection refused
+2021/12/19 07:39:21 base.go:38: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/19 07:39:21 testModel.go:21: dial tcp 127.0.0.1:3306: connect: connection refused
+2021/12/26 06:50:18 base.go:38: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 06:50:18 testModel.go:21: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 06:57:23 base.go:38: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 06:57:23 testModel.go:21: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 06:57:43 base.go:38: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 06:57:43 testModel.go:21: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 07:07:19 base.go:39: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 07:07:19 testModel.go:21: dial tcp 172.29.0.2:3315: connect: connection refused
+2021/12/26 07:17:42 base.go:39: dial tcp 172.18.0.3:3315: connect: connection refused
+2021/12/26 07:17:42 testModel.go:21: dial tcp 172.18.0.3:3315: connect: connection refused
+2022/12/27 02:32:29 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:50617->127.0.0.11:53: i/o timeout
+2022/12/27 02:32:29 testModel.go:19: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:50617->127.0.0.11:53: i/o timeout
+2022/12/27 02:46:30 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:40171->127.0.0.11:53: i/o timeout
+2022/12/27 02:46:30 testModel.go:19: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:40171->127.0.0.11:53: i/o timeout
+2022/12/27 02:50:04 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:39069->127.0.0.11:53: i/o timeout
+2022/12/27 02:50:04 testModel.go:19: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:39069->127.0.0.11:53: i/o timeout
+2022/12/27 02:53:59 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:60283->127.0.0.11:53: i/o timeout
+2022/12/27 02:53:59 testModel.go:19: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:60283->127.0.0.11:53: i/o timeout
+2022/12/27 03:04:16 base.go:43: retry... count:4
+2022/12/27 03:04:28 base.go:43: retry... count:3
+2022/12/27 03:04:40 base.go:43: retry... count:2
+2022/12/27 03:04:52 base.go:43: retry... count:1
+2022/12/27 03:04:52 base.go:49: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:58870->127.0.0.11:53: i/o timeout
+2022/12/27 03:04:52 testModel.go:19: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:58870->127.0.0.11:53: i/o timeout
+2022/12/27 03:05:17 base.go:43: retry... count:4
+2022/12/27 03:05:29 base.go:43: retry... count:3
+2022/12/27 03:05:41 base.go:43: retry... count:2
+2022/12/27 03:11:06 base.go:38: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:34279->127.0.0.11:53: i/o timeout
+2022/12/27 03:11:06 testModel.go:19: dial tcp: lookup mysql_container on 127.0.0.11:53: read udp 127.0.0.1:34279->127.0.0.11:53: i/o timeout
+2022/12/27 03:23:12 base.go:38: dial tcp 192.168.0.4:3307: connect: connection refused
+2022/12/27 03:23:12 testModel.go:19: dial tcp 192.168.0.4:3307: connect: connection refused
+2023/01/07 14:04:16 base.go:38: dial tcp 172.21.0.2:3307: connect: connection refused
+2023/01/07 14:04:16 testModel.go:19: dial tcp 172.21.0.2:3307: connect: connection refused
+2023/02/25 13:05:23 UserController.go:28: strconv.Atoi: parsing "$": invalid syntax
+2023/02/25 13:05:23 UserController.go:20: &{0  $  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0}
+2023/02/25 13:06:06 UserController.go:28: strconv.Atoi: parsing "sssss@mail.com": invalid syntax
+2023/02/25 13:06:06 UserController.go:20: &{0  sssss@mail.com  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0}
+2023/02/25 13:07:45 UserController.go:28: strconv.Atoi: parsing "sssss@mail.com": invalid syntax
+2023/02/25 13:07:45 base.go:38: dial tcp 172.20.0.2:3306: connect: connection refused
+2023/02/25 13:07:45 mAccesUserModel.go:33: dial tcp 172.20.0.2:3306: connect: connection refused
+2023/02/25 13:07:45 UserController.go:20: &{0  sssss@mail.com  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0}
+2023/02/25 13:08:17 UserController.go:28: strconv.Atoi: parsing "sssss@mail.com": invalid syntax
+2023/02/25 13:08:19 base.go:38: dial tcp: lookup magafagafa-mysql on 127.0.0.11:53: no such host
+2023/02/25 13:08:19 mAccesUserModel.go:33: dial tcp: lookup magafagafa-mysql on 127.0.0.11:53: no such host
+2023/02/25 13:08:22 UserController.go:20: &{0  sssss@mail.com  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0}
+2023/02/25 13:12:03 UserController.go:28: strconv.Atoi: parsing "sssss@mail.com": invalid syntax
+2023/02/25 13:12:03 UserController.go:20: &{0  sssss@mail.com  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0}
+2023/02/25 13:12:54 UserController.go:28: strconv.Atoi: parsing "sssss@mail.com": invalid syntax
+2023/02/25 13:12:54 UserController.go:20: &{0  sssss@mail.com  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0}
+2023/02/25 13:53:23 UserController.go:20: &{0  sssss@mail.com  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 1}
+2023/02/25 14:02:11 UserController.go:23: &{0  sssss@mail.com  2023-02-25 14:02:11.3434376 +0000 UTC m=+5.455904401 2023-02-25 14:02:11.3434377 +0000 UTC m=+5.455904401 1}
+2023/02/25 14:19:35 UserController.go:23: &{0  sssss@mail.com  2023-02-25 14:19:35.4280577 +0000 UTC m=+9.656996901 2023-02-25 14:19:35.4280578 +0000 UTC m=+9.656997001 1}
+2023/02/25 14:26:02 UserController.go:26: &{0  sssss@mail.com  2023-02-25 02:26:02 2023-02-25 02:26:02 1}
+2023/02/25 15:49:14 UserController.go:31: strconv.Atoi: parsing "auth0|5f7c8ec7c33c6c004bbafe82": invalid syntax
